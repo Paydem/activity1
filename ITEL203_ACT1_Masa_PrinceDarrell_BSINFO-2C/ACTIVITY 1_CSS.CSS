@@ -1,0 +1,193 @@
+*{MARGIN: 0;
+PADDING: 0}
+
+
+	} 
+.LOGO {POSITION:ABSOLUTE;
+		   TOP:7PX;
+		   LEFT: 30PX;
+		   }
+BODY {BACKGROUND-IMAGE:LINEAR-GRADIENT(RGBA(0,0,0,5),RGBA(0,0,0,0.1)),URL(sir_albes.JPG);
+	BACKGROUND-SIZE:1300PX 2000PX;
+	BACKGROUND-REPEAT: NO-REPEAT}
+	
+	.MAIN-NAV {FLOAT:LEFT;
+				LIST-STYLE:NONE;
+				MARGIN-LEFT:100PX;
+			   MARGIN-TOP:80PX}
+			   			   
+	.MAIN-NAV LI {DISPLAY:INLINE-BLOCK;}
+	.NAVIGATORS {POSITION: ABSOLUTE;
+				BOTTOM:94%}			
+	.MAIN-NAV LI A {COLOR:WHITE;
+					TEXT-DECORATION:NONE;
+					PADDING:5PX 40PX;
+					FONT-FAMILY:CAMBRIA;
+					TRANSITION: .4S EASE-IN-OUT;
+					 }
+					 
+	.MAIN-NAV LI.HOME A	{COLOR:YELLOW}
+	 UL A:HOVER	{COLOR:YELLOW}
+	 
+	 H6.FPII {COLOR:#DCDCDC;
+			POSITION:ABSOLUTE;
+			LEFT:45%;
+			TOP:20%;
+			FONT-SIZE:20PX}
+			
+	 H1.ACT1 {COLOR:WHITE;
+			POSITION:ABSOLUTE;
+			LEFT:35%;
+			TOP:10%}
+			
+	DIV.LSPU {POSITION:ABSOLUTE;
+				LEFT:130PX;
+				TOP:55PX}
+				
+	DIV.CCS {POSITION:ABSOLUTE;
+				right:130PX;
+				TOP:55PX}
+				
+
+	 DIV.WIH H1	{TEXT-ALIGN:CENTER}
+	 
+	 DIV.WIH P	{WIDTH:250PX;
+				POSITION:ABSOLUTE;
+				LEFT:50%;
+				TOP:45%;
+				transform: translate(-50%, -50%);}
+	 
+	 .WIH {FONT-FAMILY:Consolas;
+			FONT-SIZE:10PX;
+			TEXT-ALIGN:JUSTIFY}
+	
+	
+	DIV.WIH {BACKGROUND-COLOR:RGBA(255, 255, 255, 0.1);
+			COLOR:GRAY;
+			WIDTH:300PX;
+			HEIGHT:420PX;
+			border-radius: 25px;
+			POSITION:ABSOLUTE;
+			LEFT:25%;
+			TOP:75%;
+			transform: translate(-50%, -50%);}
+			
+	 DIV.HTTPS H1 {TEXT-ALIGN:CENTER}
+	 
+	 DIV.HTTPS P {WIDTH:250PX;
+				POSITION:ABSOLUTE;
+				LEFT:50%;
+				TOP:45%;
+				transform: translate(-50%, -50%);}
+	 
+	 .HTTPS {FONT-FAMILY:Consolas;
+			FONT-SIZE:10PX;
+			TEXT-ALIGN:JUSTIFY}
+	
+	
+	DIV.HTTPS {BACKGROUND-COLOR:RGBA(255, 255, 255, 0.1);
+			COLOR:GRAY;
+			WIDTH:300PX;
+			HEIGHT:420PX;
+			border-radius: 25px;
+			POSITION:ABSOLUTE;
+			LEFT:50%;
+			TOP:75%;
+			transform: translate(-50%, -50%);}
+			
+	DIV.HTTPREQ H1 {TEXT-ALIGN:CENTER}
+	 
+	 DIV.HTTPREQ P {WIDTH:250PX;
+				POSITION:ABSOLUTE;
+				LEFT:50%;
+				TOP:50%;
+				transform: translate(-50%, -50%);}
+	 
+	 .HTTPREQ {FONT-FAMILY:Consolas;
+			FONT-SIZE:10PX;
+			TEXT-ALIGN:JUSTIFY}
+	
+	
+	DIV.HTTPREQ {BACKGROUND-COLOR:RGBA(255, 255, 255, 0.1);
+			COLOR:GRAY;
+			WIDTH:300PX;
+			HEIGHT:420PX;
+			border-radius: 25px;
+			POSITION:ABSOLUTE;
+			LEFT:75%;
+			TOP:75%;
+			transform: translate(-50%, -50%);}
+
+	DIV.HTTPRESPONSE H1 {TEXT-ALIGN:CENTER;
+						COLOR:GRAY}
+	 
+	 DIV.HTTPRESPONSE P {WIDTH:250PX;
+				POSITION:ABSOLUTE;
+				LEFT:50%;
+				TOP:52%;
+				transform: translate(-50%, -50%);}
+	 
+	 .HTTPRESPONSE {FONT-FAMILY:Consolas;
+			FONT-SIZE:10PX;
+			TEXT-ALIGN:JUSTIFY}
+	
+	
+	DIV.HTTPRESPONSE {BACKGROUND-COLOR:RGBA(255, 255, 255, 0.1);
+			COLOR:DARKGRAY;
+			WIDTH:300PX;
+			HEIGHT:500PX;
+			border-radius: 25px;
+			LEFT:25%;
+			POSITION:ABSOLUTE;
+			TOP:160%;
+			transform: translate(-50%, -50%);}
+			
+			
+	DIV.HTTPSTATUS H1 {TEXT-ALIGN:CENTER;
+						COLOR:GRAY;
+						WIDTH:470PX;
+						transform: translate(13%, -20%)}
+	 
+	 DIV.HTTPSTATUS P {WIDTH:470PX;
+				POSITION:ABSOLUTE;
+				LEFT:50%;
+				TOP:55%;
+				transform: translate(-50%, -50%);}
+	 
+	 .HTTPSTATUS {FONT-FAMILY:Consolas;
+			FONT-SIZE:10PX;
+			TEXT-ALIGN:JUSTIFY}
+	
+	
+	DIV.HTTPSTATUS {BACKGROUND-COLOR:RGBA(255, 255, 255, .1);
+			COLOR:DARKGRAY;
+			WIDTH:575PX;
+			HEIGHT:500PX;
+			border-radius: 25px;
+			LEFT:63%;
+			POSITION:ABSOLUTE;
+			TOP:160%;
+			transform: translate(-50%, -50%);}
+			
+		DIV.HTTPHEADER H1 {TEXT-ALIGN:CENTER}
+	 
+	 DIV.HTTPHEADER P {WIDTH:400PX;
+				POSITION:ABSOLUTE;
+				LEFT:50%;
+				TOP:60%;
+				transform: translate(-50%, -50%);}
+	 
+	 .HTTPHEADER {FONT-FAMILY:Consolas;
+			FONT-SIZE:10PX;
+			TEXT-ALIGN:JUSTIFY}
+	
+	
+	DIV.HTTPHEADER {BACKGROUND-COLOR:RGBA(255, 255, 255, 0.1);
+			COLOR:GRAY;
+			WIDTH:575PX;
+			HEIGHT:300PX;
+			border-radius: 25px;
+			LEFT:50%;
+			POSITION:ABSOLUTE;
+			TOP:235%;
+			transform: translate(-50%, -50%);}		
